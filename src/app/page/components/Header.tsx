@@ -8,7 +8,7 @@ const Header = () => {
             <Image src="/images/logo.png" alt="alt" width={120} height={120} />
 
             <div className='flex flex-row justify-center relative'>
-                <Image className='absolute' src="/images/dragon.png" alt="alt" width={300} height={300} />
+                {/* <Image className='absolute' src="/images/dragon.png" alt="alt" width={300} height={300} /> */}
             </div>
             <div className='flex flex-col gap-3 mt-16'>
                 <p className='text-[#e80000] font-bold text-sm'>Over 4k users interacted.</p>
